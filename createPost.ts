@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { formattedDateSlug } from "./lib/dateTime";
 
 const title: string | string[] | undefined = process.argv[2];
 
